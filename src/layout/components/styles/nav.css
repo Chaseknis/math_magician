@@ -1,0 +1,61 @@
+.navbar {
+  background-color: aqua;
+  margin: 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: orange;
+  padding: 0 24px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+}
+
+.logo {
+  text-decoration: none;
+  color: rgb(42, 40, 35);
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Montserrat', serif;
+}
+
+.logo span {
+  color: rgb(103, 5, 130);
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(42, 40, 35);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    padding: 0 120px;
+  }
+
+  nav ul {
+    gap: 2rem;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+}

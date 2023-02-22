@@ -1,5 +1,6 @@
 import React from 'react';
 import { Layout } from '../layout';
+import './components/styles/quote.css';
 
 const Quote = () => (
   <Layout>

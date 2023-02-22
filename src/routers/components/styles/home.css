@@ -1,0 +1,14 @@
+.home_container {
+  padding: 0 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .home_container {
+    padding: 8rem 120px;
+  }
+
+  .home_container p {
+    width: 60%;
+    font-size: 20px;
+  }
+}

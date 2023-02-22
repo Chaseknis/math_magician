@@ -1,0 +1,10 @@
+button {
+  width: 100%;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: orange;
+}
