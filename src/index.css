@@ -5,7 +5,7 @@ body {
     BlinkMacSystemFont,
     'Segoe UI',
     'Roboto',
-    'Montserrat'
+    'Montserrat',
     'Oxygen',
     'Ubuntu',
     'Cantarell',
@@ -96,7 +96,7 @@ nav {
   justify-content: space-between;
   background-color: orange;
   padding: 0 24px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
 }
 
 .logo {
@@ -104,7 +104,7 @@ nav {
   color: rgb(42, 40, 35);
   font-weight: 600;
   cursor: pointer;
-  font-family: 'Rubik Vinyl';
+  font-family: 'Montserrat', serif;
 }
 
 .logo span {
@@ -144,7 +144,6 @@ nav ul li a {
 }
 
 @media screen and (min-width: 768px) {
-
   nav {
     padding: 0 120px;
   }
@@ -164,11 +163,11 @@ nav ul li a {
   .calculator_wrapper p {
     font-size: 62px;
   }
-  
+
   .number_wrapper {
     height: 100%;
   }
-  
+
   .row_container {
     height: 100%;
   }
@@ -176,7 +175,7 @@ nav ul li a {
   .home_container {
     padding: 8rem 120px;
   }
-  
+
   .quote_container {
     padding: 8rem 120px;
   }
@@ -187,7 +186,6 @@ nav ul li a {
 
   nav ul li a {
     font-size: 20px;
-
   }
 
   .logo {
@@ -211,5 +209,4 @@ nav ul li a {
     width: 60%;
     font-size: 20px;
   }
-
 }
