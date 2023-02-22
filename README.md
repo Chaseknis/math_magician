@@ -69,6 +69,8 @@
 
 - [Live Demo Link](https://Chaseknis.github.io/math_magician/)
 
+<img width="1680" alt="Screenshot 2023-02-22 at 20 11 08" src="https://user-images.githubusercontent.com/97366651/220721420-06d401a6-d8b1-4979-8b7d-2f9649a2e262.png">
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
